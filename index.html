@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anna Ngobeni — Aspiring Software Engineer specializing in front-end web development, databases, and software testing.">
+    <title>Anna Ngobeni | Software Engineering Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar" aria-label="Primary Navigation">
+            <a href="#home" class="logo">AN<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-grid-bg" aria-hidden="true"></div>
+            <div class="hero-content">
+                <div class="status-pill">
+                    <span class="pulse-dot"></span>
+                    Software Engineering Student • Polokwane
+                </div>
+
+                <h1>Hi, I'm <span class="gradient-text">Anna Ngobeni</span></h1>
+
+                <h2>Aspiring Software Engineer &amp; Front-End Developer</h2>
+
+                <p>
+                    Passionate about building responsive web interfaces, clean relational
+                    databases, and reliable software applications that solve real-world problems.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        Explore My Work
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                    <a href="https://github.com/senyatsianna-pixel" target="_blank" rel="noopener noreferrer" class="btn outline-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub Profile
+                    </a>
+                </div>
+
+                <div class="hero-tech-strip">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Java </span>
+                    <span>C#</span>
+                    <span>Python</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section reveal">
+            <div class="section-heading">
+                <p class="section-subtitle">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-wrapper">
+                <div class="about-card">
+                    <p>
+                        My name is <strong>Anna Ngobeni</strong>, and I am a Software Engineering
+                        student passionate about how modern software systems and web applications
+                        are designed, developed, and tested.
+                    </p>
+
+                    <p>
+                        I bring hands-on experience across front-end development, object-oriented
+                        programming, relational database design, and software quality assurance.
+                        I take pride in crafting clean, accessible, and responsive user interfaces.
+                    </p>
+
+                    <p>
+                        My goal is to continuously sharpen my engineering craft, contribute to
+                        impactful software teams, and build digital tools that make everyday
+                        workflows simpler.
+                    </p>
+                </div>
+
+                <div class="about-highlights">
+                    <div class="highlight-box">
+                        <span class="highlight-title">Front-End Focus</span>
+                        <p>Responsive layouts with HTML5, CSS3, Tailwind CSS, and modern JavaScript.</p>
+                    </div>
+                    <div class="highlight-box">
+                        <span class="highlight-title">Quality &amp; Testing</span>
+                        <p>Structured manual, functional, performance, and Selenium test automation.</p>
+                    </div>
+                    <div class="highlight-box">
+                        <span class="highlight-title">Database Design</span>
+                        <p>Relational modeling, normalization up to 3NF, and SQL query implementation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="section-heading reveal">
+                <p class="section-subtitle">TECHNICAL TOOLKIT</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Programming</h3>
+                    <p>Python, Java &amp; C#</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                    </div>
+                    <h3>Databases</h3>
+                    <p>SQL, Normalization &amp; Relational Design</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Software Testing</h3>
+                    <p>Manual, Functional &amp; Performance Testing</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                    </div>
+                    <h3>Test Automation</h3>
+                    <p>Selenium &amp; Automated Test Suites</p>
+                </div>
+
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3>Core Strengths</h3>
+                    <p>Problem-Solving, Debugging &amp; Git Workflows</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-heading reveal">
+                <p class="section-subtitle">LIVE DEPLOYMENTS &amp; REPOSITORIES</p>
+                <h2>Featured <span>Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Project 1: Properties Website -->
+                <article class="project-card reveal">
+                    <div class="project-top">
+                        <div class="project-header-row">
+                            <span class="project-number">01</span>
+                            <span class="live-badge"><span class="live-dot"></span>Live Site</span>
+                        </div>
+                        <h3>Properties Website</h3>
+                        <p>
+                            A real estate web platform where users can rent, buy, and view
+                            available properties with structured listings and clean browsing.
+                        </p>
+                    </div>
+
+                    <div class="project-bottom">
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links-row">
+                            <a href="https://realhomeannangobeni.netlify.app/"
+                               target="_blank" rel="noopener noreferrer" class="project-btn-live">
+                                <span>Live Demo</span>
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+                            </a>
+                            <a href="https://github.com/senyatsianna-pixel/Properties-website-anna-ngobeni"
+                               target="_blank" rel="noopener noreferrer" class="project-link-code">
+                                <span>GitHub Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: HopeIT Management -->
+                <article class="project-card reveal">
+                    <div class="project-top">
+                        <div class="project-header-row">
+                            <span class="project-number">02</span>
+                            <span class="live-badge"><span class="live-dot"></span>Live Site</span>
+                        </div>
+                        <h3>HopeIT Management</h3>
+                        <p>
+                            A full business management dashboard featuring Customer, Product,
+                            and Orders CRUD management alongside dynamic sales and order reports.
+                        </p>
+                    </div>
+
+                    <div class="project-bottom">
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links-row">
+                            <a href="https://senyatsianna-pixel.github.io/HopeIT-Management/"
+                               target="_blank" rel="noopener noreferrer" class="project-btn-live">
+                                <span>Live Demo</span>
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+                            </a>
+                            <a href="https://github.com/senyatsianna-pixel/HopeIT-Management"
+                               target="_blank" rel="noopener noreferrer" class="project-link-code">
+                                <span>GitHub Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: Ticket Application System -->
+                <article class="project-card reveal">
+                    <div class="project-top">
+                        <div class="project-header-row">
+                            <span class="project-number">03</span>
+                            <span class="live-badge"><span class="live-dot"></span>Live Site</span>
+                        </div>
+                        <h3>Ticket Application System</h3>
+                        <p>
+                            An interactive fare calculator and ticketing system that computes
+                            travel costs by category and distance with automatic age and gender discounts.
+                        </p>
+                    </div>
+
+                    <div class="project-bottom">
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links-row">
+                            <a href="https://senyatsianna-pixel.github.io/TicketApplicationSystem/"
+                               target="_blank" rel="noopener noreferrer" class="project-btn-live">
+                                <span>Live Demo</span>
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+                            </a>
+                            <a href="https://github.com/senyatsianna-pixel/TicketApplicationSystem"
+                               target="_blank" rel="noopener noreferrer" class="project-link-code">
+                                <span>GitHub Code</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-heading reveal">
+                <p class="section-subtitle">LET'S CONNECT</p>
+                <h2>Get In <span>Touch</span></h2>
+            </div>
+
+            <p class="contact-intro reveal">
+                Have a question, collaboration idea, or internship opportunity?
+                Send me a message below and it will be delivered directly to my email.
+            </p>
+
+            <form class="contact-form reveal" id="contact-form"
+                  action="https://formsubmit.co/ngobeniannaraesibe@gmail.com"
+                  method="POST">
+
+                <!-- FormSubmit Email Configuration -->
+                <input type="hidden" name="_subject" value="New Portfolio Inquiry for Anna Ngobeni">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name"
+                               placeholder="Enter your full name"
+                               autocomplete="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="Enter your email address"
+                               autocomplete="email" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number (Optional)</label>
+                    <input type="tel" id="phone" name="phone"
+                           placeholder="e.g. 072 123 4567"
+                           autocomplete="tel">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5"
+                              placeholder="Write your message here..."
+                              required></textarea>
+                </div>
+
+                <button type="submit" class="btn primary-btn" id="submit-btn">
+                    Send Email Inquiry →
+                </button>
+
+                <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="#home" class="footer-logo">AN<span>.</span></a>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="https://github.com/senyatsianna-pixel" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="mailto:ngobeniannaraesibe@gmail.com">Email Me</a>
+            </div>
+            <p class="copyright">© <span id="year"></span> Anna Ngobeni. Designed &amp; built with passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
