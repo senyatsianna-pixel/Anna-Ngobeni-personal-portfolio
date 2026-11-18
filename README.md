@@ -3,7 +3,7 @@ Anna Ngobeni - Software Engineering Portfolio
 Welcome to the source code for my personal Software Engineering Portfolio website. This platform showcases my technical skills, software engineering background, and live project deployments.
 
 Live Website
-*(Replace this line with your live GitHub Pages or Netlify link once hosted)*
+https://senyatsianna-pixel.github.io/Anna-Ngobeni-personal-portfolio/
 
 Technologies Used
 HTML – Semantic structure and accessibility
